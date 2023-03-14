@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>조직도</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/sub_road.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/slick.js"></script>
+</head>
+<body>
+  <div id="sub_wrap">
+    <form name="" action="" method="">
+      <header id=header>
+        <div class="inner">
+          <h1><a href="index.html">logo</a></h1>
+          <nav id="nav">
+            <ul class="clear">
+              <li>
+                <a href="#">센터소개</a>
+                <ul class="submunu">
+                  <li><a href="sub_intro.html">인사말</a></li>
+                  <li><a href="sub_imp.html">비전 및 목표</a></li>
+                  <li><a href="sub_imp.html">핵심분야</a></li>
+                  <li><a href="sub_ci.html">CI소개</a></li>
+                  <li><a href="sub_org.html">조직도</a></li>
+                  <li><a href="sub_map.html">오시는 길</a></li>     
+                </ul></li>
+              <li><a href="#">대학교육혁신</a>
+                <ul class="submunu">  
+                  <li><a href="#">참여대학/참여학과</a></li>
+                  <li><a href="#">Bio-PRIDE 공유대학</a></li>   
+                  <li><a href="https://www.hscredit.kr">고교학점제</a></li>     
+              </ul>
+            </li>
+            <li><a href="#">핵심분야</a>
+                <ul class="submunu">   
+                  <li><a href="sub_core_bio.html">제약바이오</a></li>
+                  <li><a href="sub_core_nat.html">화장품·천연물</a></li>
+                  <li><a href="sub_core_elt.html">정밀의료·의료기기</a></li>
+                  <li><a href="http://seondo.cbnu.ac.kr/index.php">지역선도대학육성</a></li>
+                </ul>
+              </li>
+              <li><a href="#">알림마당</a>
+                <ul class="submunu">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">사업공고</a></li>
+                  <li><a href="#">학생참여게시판</a></li>
+                  <li><a href="#">채용공고</a></li>
+                  <li><a href="#">자료실</a></li>
+                  <li><a href="#">제규정 및 지침</a></li>   
+                </ul>
+              </li>
+              <li><a href="#">커뮤니티</a>
+                <ul class="submunu">   
+                  <li><a href="#">센터소식</a></li>
+                  <li><a href="#">보도자료</a></li>
+                  <li><a href="#">홍보자료</a></li>
+                  <li><a href="#">자주하는 질문</a></li>
+                  <li><a href="#">상담문의</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </nav>
+   
+            <button type="button" class="menubar open1">
+              <span>menubar</span>
+            </button>
+            <div id="mGnb" class="leftWrap">
+              <a href="#" class="close1">닫기</a>
+              <!-- <div class="quick_menu">
+                <div class="search">
+                  <input type="text" placeholder="검색어를 입력해주세요.">
+                  <a href="#">검색버튼</a>
+                </div> -->
+                <!-- <button type="button" class="btnMenuClose">메뉴닫기</button> -->
+                <ul class="menuWrap clear">
+                  <li class="has-sub">
+                    <a href="#">센터소개</a>
+                    <button type="button">열기</button>
+                    <ul>
+                      <li><a href="sub_intro.html">인사말</a></li>
+                      <li><a href="sub_imp.html">비전 및 목표</a></li>
+                      <li><a href="sub_imp.html">핵심분야</a></li>
+                      <li><a href="sub_ci.html">CI소개</a></li>
+                      <li><a href="sub_org.html">조직도</a></li>
+                      <li><a href="sub_map.html">오시는 길</a></li>     
+                    </ul></li>
+                    <li class="has-sub"><a href="#">대학교육혁신</a>
+                      <button type="button">열기</button>
+                      <ul>  
+                        <li><a href="#">참여대학/참여학과</a></li>
+                        <li><a href="#">Bio-PRIDE 공유대학</a></li>   
+                        <li><a href="https://www.hscredit.kr">고교학점제</a></li> 
+                    </ul>
+                  </li>
+              </li>
+              <li class="has-sub"><a href="#">핵심분야</a>
+                <button type="button">열기</button>
+                <ul>   
+                  <li><a href="sub_core_bio.html">제약바이오</a></li>
+                  <li><a href="sub_core_nat.html">화장품·천연물</a></li>
+                  <li><a href="sub_core_elt.html">정밀의료·의료기기</a></li>
+                  <li><a href="http://seondo.cbnu.ac.kr/index.php">지역선도대학육성</a></li>
+                </ul>
+              </li>
+              <li class="has-sub"><a href="#">알림마당</a>
+                <button type="button">열기</button>
+                <ul>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">사업공고</a></li>
+                  <li><a href="#">학생참여게시판</a></li>
+                  <li><a href="#">채용공고</a></li>
+                  <li><a href="#">자료실</a></li>
+                  <li><a href="#">제규정 및 지침</a></li>   
+                </ul>
+              </li>
+              <li class="has-sub"><a href="#">커뮤니티</a>
+                <button type="button">열기</button>
+                <ul>   
+                  <li><a href="#">센터소식</a></li>
+                  <li><a href="#">보도자료</a></li>
+                  <li><a href="#">홍보자료</a></li>
+                  <li><a href="#">자주하는 질문</a></li>
+                  <li><a href="#">상담문의</a></li>
+                </ul>
+              </li>
+              
+               
+                  
+                
+      
+                </ul>   
+                <!-- //모바일메뉴
+        <div class="fix_bg"></div>
+        <div class="gnb_Bg"></div> -->
+             </div>
+              
+           
+          <div class="search">
+            <label for="search">검색</label><input type="text" id="search" placeholder="검색어를 입력하세요." >
+            <button type="button" class="navyBtn" onClick="location.href='sub_search.html'">검색</button>
+          </div><!--.search-->
+        
+        </div>
+       
+    </header>
+    <div class="subSkin bg1"> 
+    </div><!--.subSkin-->
+    <div id="subContainer">
+      <aside id="mb_lnb">
+        <ul>
+          <li class="depth1">
+            
+            <button type="button">센터소개</button>
+            <ul style="display: none;">
+              <li class="on">
+                <a href="#">센터소개</a>
+              </li>
+              <li>
+                <a href="#">대학교육혁신</a>
+              </li>
+              <li>
+                <a href="#">핵심분야</a>
+              </li>
+              <li>
+                <a href="#">알림마당</a>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+              </li>
+             
+           </ul>
+          </li>
+          <li class="depth2">
+            <button type="button">센터소개</button>
+            <ul style="display: none;">
+              <li>
+                    <a href="sub_intro.html">인사말</a>
+              </li>
+              <li class="on">
+                    <a href="sub_imp.html">비전 및 목표</a>
+              </li>
+              <li>
+                <a href="sub_core.html">핵심분야</a>
+              </li>
+              <li>
+                <a href="sub_ci.html">CI소개</a>
+              </li>
+              <li>
+                <a href="sub_org.html">조직도</a>
+              </li>
+              <li>
+                <a href="sub_map.html">오시는 길</a>
+              </li>
+           </ul>
+          </li>
+ 
+        </ul>
+      </aside><!--#mb_lnb-->
+      <aside id="lnbCon">
+        <h2>센터소개</h2>
+        <nav id="lnb">
+         <ul>
+          <li class="has-sub">
+            <a href="sub_intro.html">인사말</a>
+          </li>
+          <li class="has-sub">
+            <a href="sub_imp.html">비전 및 목표</a>
+          </li>
+          <li class="has-sub">
+            <a href="sub_core.html">핵심분야</a>
+          </li>                      
+          <li class="has-sub">
+            <a href="sub_ci.html">CI소개</a>
+          </li>
+          <li class="has-sub">
+            <a href="sub_org.html">조직도</a>
+          </li>
+          <li class="has-sub">
+            <a href="sub_map.html">오시는 길</a>
+          </li>
+       </ul>
+          
+    </nav>
+      </aside><!--#lnbCon-->
+      <div id="content">
+        <div class="pagGud">
+          <ul class="location">
+            <li class="home">HOME</li>
+            <li class="menu1">센터소개</li>
+            <li class="menu2">조직도</li>
+            
+          </ul>
+        </div><!--.pagGud-->
+        <h2 class="title c_tit">조직도</h2>
+        <div class="organCon">
+          <ul>
+            <li><div class="or1"><a href="#">충북지역협업위원회</a></div>
+              <ul>
+                <li><div class="or2"><a href="#" id="modal-open02">충북바이오헬스산업혁신센터</a></div>
+                  <ul>
+                    <li><div class="or2_1">자체평가위원회</div>
+                    <li><div class="or2_2">운영위원회</div>
+                    
+                      <ul class="orbt">
+                        <li class="con1"><span class="or3_1 or3"><a href="#" id="modal-open03">대학교육혁신본부</a></span>
+                          <ul>
+                            <li class="or4"><a href="sub_org01.html"><span>교육</span>행정팀</a></li>
+                            <li class="or5"><a href="sub_org02.html"><span>교육</span>과정팀</a></li>
+                            
+                          </ul>
+                        <li class="con2">
+                          <span class="or3"><a href="#" id="modal-open05">바이오헬스산업혁신본부</a></span>
+                          <span class="or8"><a href="sub_org03.html">Bio-PRIDE 기업트랙실</a></span>
+                          <ul>
+                            <li class="or4"><a href="sub_org06.html"><span>제약바이오</span>사업단</a></li>
+                            <li class="or5"><a href="sub_org07.html"><span>정밀의료</span><span>의료기기</span>사업단</a></li>
+                            <li class="or6"><a href="sub_org08.html"><span>화장품</span><span>천연물</span>사업단</a></li>
+                          </ul>
+                        </li>
+                        <li class="con3"><span class="or3"><a href="#" id="modal-open04">전략기획본부</a></span>
+                          <ul>
+                            <li class="or4"><a href="sub_org05.html"><span>기획</span>운영실</a></li>
+                            <li class="or6"><a href="sub_org04.html"><span>행정</span><span>지원실</span></a></li>
+                           
+                          </ul>
+                        </li>
+                    </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div><!--#content-->
+    </div><!--subContainer-->
+    
+    <footer id="footer">
+      <div class="inner clear">
+        <div class="f_address">
+          <img src="img/logo_gray.png" alt="이미지에 대한 설명">
+          <p class="txt01">충북바이오헬스산업혁신센터</p>
+          <p class="txt02">Chungbuk Bio-Health Industry Innovation Center</p>
+          <p class="txt03">(28161)충북 청주시 흥덕구 오송생명로1로 191, 베스티안병원 C동 3층</p>
+          <p class="txt04">Copyright Chungbuk  Bio-Health Industry Innovation Center. <br>
+            All Rights Reserved.
+          </p>
+        </div> <!--f_address-->
+        <div class="f_menu">
+          <ul class="clear">
+            <li>센터소개
+              <ul class="fsub_munu">
+                <li><a href="sub_intro.html">인사말</a></li>
+                <li><a href="sub_imp.html">비전 및 목표</a></li>
+                <li><a href="sub_imp.html">핵심분야</a></li>
+
+                <li><a href="sub_ci.html">CI소개</a></li>
+                <li><a href="sub_org.html">조직도</a></li>
+                <li><a href="sub_map.html">오시는 길</a></li>     
+              </ul>
+            </li>
+            <li>대학교육혁신
+              <ul class="fsub_munu">  
+                <li><a href="#">참여대학/참여학과</a></li>
+                <li><a href="#">Bio-PRIDE 공유대학</a></li>   
+                <li><a href="https://www.hscredit.kr">고교학점제</a></li>    
+            </ul>
+            </li>
+            <li>핵심분야
+              <ul class="fsub_munu">   
+                <li><a href="sub_core_bio.html">제약바이오</a></li>
+                <li><a href="sub_core_nat.html">화장품·천연물</a></li>
+                <li><a href="sub_core_elt.html">정밀의료·의료기기</a></li>
+                <li><a href="http://seondo.cbnu.ac.kr/index.php">지역선도대학육성</a></li>    
+
+              </ul>
+            </li>
+            <li>알림마당
+              <ul class="fsub_munu">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">사업공고</a></li>
+                <li><a href="#">학생참여게시판</a></li>
+                <li><a href="#">채용공고</a></li>
+                <li><a href="#">자료실</a></li>
+                <li><a href="#">제규정 및 지침</a></li>   
+              </ul>
+            </li>
+            <li>커뮤니티
+              <ul class="fsub_munu">   
+                <li><a href="#">센터소식</a></li>
+                <li><a href="#">보도자료</a></li>
+                <li><a href="#">홍보자료</a></li>
+                <li><a href="#">자주하는 질문</a></li>
+                <li><a href="#">상담문의</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div><!--.inner-->
+    </footer>
+    <div class="popup-wrap02" id="popup02">
+      <div class="popup02">
+        <p class="tit02">조직현황</p>
+       <table>
+         
+         <tbody>
+          <tr>
+            <th>직위</th><td>센터장</td>
+          </tr>
+          <tr>
+           <th>성명</th><td>홍진태</td>
+         </tr>
+         <tr>
+           <th>연락처</th><td>043-903-7301</td>
+         </tr>
+         <tr>
+           <th>이메일</th><td>jinthong@cbnu.ac.kr</td>
+         </tr>
+         <tr>
+           <th>담당업무</th><td>센터업무총괄</td>
+         </tr>
+        
+         </tbody>
+        
+       </table>
+      <button id="close02" type="button">확인</button>
+
+
+      </div>
+  </div>
+  <div class="popup-wrap03" id="popup03">
+    <div class="popup03">
+      <p class="tit02">조직현황</p>
+     <table>
+       
+       <tbody>
+        <tr>
+          <th>직위</th><td>본부장</td>
+        </tr>
+        <tr>
+         <th>성명</th><td>이재권</td>
+       </tr>
+       <tr>
+         <th>연락처</th><td>043-261-2734</td>
+       </tr>
+       <tr>
+         <th>이메일</th><td>chemokine@cbnu.ac.kr</td>
+       </tr>
+       <tr>
+         <th>담당업무</th><td>대학교육혁신본부 총괄</td>
+       </tr>
+      
+       </tbody>
+      
+     </table>
+    <button id="close03" type="button">확인</button>
+
+
+    </div>
+</div>
+<div class="popup-wrap04" id="popup04">
+  <div class="popup04">
+    <p class="tit02">조직현황</p>
+   <table>
+     
+     <tbody>
+      <tr>
+        <th>직위</th><td>본부장</td>
+      </tr>
+      <tr>
+       <th>성명</th><td>김선호</td>
+     </tr>
+     <tr>
+       <th>연락처</th><td>043-903-7395</td>
+     </tr>
+     <tr>
+       <th>이메일</th><td>ksh5937@hanmail.net</td>
+     </tr>
+     <tr>
+       <th>담당업무</th><td>전략기획업무 총괄</td>
+     </tr>
+    
+     </tbody>
+    
+   </table>
+  <button id="close04" type="button">확인</button>
+
+
+  </div>
+</div>
+  <div class="popup-wrap05" id="popup05">
+    <div class="popup05">
+      <p class="tit02">조직현황</p>
+     <table>
+       
+       <tbody>
+        <tr>
+          <th>직위</th><td>본부장</td>
+        </tr>
+        <tr>
+         <th>성명</th><td>한상배</td>
+       </tr>
+       <tr>
+         <th>연락처</th><td>043-261-2815</td>
+       </tr>
+       <tr>
+         <th>이메일</th><td>shan@chungbuk.ac.kr</td>
+       </tr>
+       <tr>
+         <th>담당업무</th><td>바이오헬스산업혁신본부 총괄</td>
+       </tr>
+      
+       </tbody>
+      
+     </table>
+    <button id="close05" type="button">확인</button>
+
+
+    </div>
+</div>
+    </form>
+  </div><!--#sub_wrap-->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
